@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.site-header{
+    padding: 24px 0;
+}
+.container{
+max-width: 1220px;
+margin: 0 auto;
+padding: 0 10px;
+
+}
+.site-logo{
+    display: inline-block;
+    vertical-align: middle;
+    /* margin-left: 100px; */
+    /* margin:0px 20p 0px 0px */
+    
+}
+.list{
+    position: relative;
+    margin: 0px 58px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.item{
+    display: inline-block;
+}
+.item + .item{
+    margin-left: 32px;
+}
+.reception{ 
+padding: 12px 24px;
+display: inline-block;
+text-decoration: none;
+font-weight: 700;
+font-size: 15px;
+line-height: 150%;
+letter-spacing: 2px;
+color: #fff;
+text-transform: uppercase;
+background-color: #de2e54;
+border: 2px solid #de2e54;
+border-radius: 8px;
+}
+.item-link{
+text-decoration: none;
+text-align: none;
+font-weight: 700;
+font-size: 14px; 
+line-height: 150%;
+color: black;
+
+}
+.list-end{
+    position: absolute;
+    bottom: -116px;
+    display: none;
+    
+}
+.item-link:hover > .list-end{
+ display: block;
+}
+
+.salom:hover{
+    color: red;
+}
+
+.left-text{
+height: 108px;
+}
+.top-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-box-text{
+width: 500px;
+}
